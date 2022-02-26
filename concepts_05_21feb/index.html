@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MP tour</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      h1 {
+        border: 6px solid rgba(1, 12, 42, 0.479);
+        padding: 10px;
+        margin: 2px;
+        width: 100vw;
+        text-align: center;
+        background-color: rgb(166, 201, 246);
+      }
+      .sec {
+        width: 100vw;
+        padding: 20px;
+        text-align:left;
+        width: 100vw;
+        background-color: rgb(251, 49, 251);
+      }
+      #form {
+        width: 200px;
+        text-align: center;
+        margin-top: 40px;
+      }
+      .details {
+        padding: 0%;
+        width: 100%;
+        color: rgb(255, 0, 0);
+        background-color: rgb(250, 204, 0);
+      }
+      p{
+        text-align: center;
+      }
+      img {
+        border-radius: 20px;
+        width: 400px;
+        height: 300px;
+      }
+      button{
+        color: white;
+        background-color: black;
+      }
+      #iframe {
+        max-height: max-content;
+        text-align:left;
+        margin-left: 40%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header class="MP">
+      <h1>Welcome to Madhya Pradesh (MP) Tourism</h1>
+      <details class="details">
+        <form >
+          <label >Explore</label>
+          <input type="text" list="Nature" />
+          <datalist id="Nature">
+            <option value="BEGUM'S BHOPAL"></option>
+            <option value="BREATHTAKING BHEDAGHAT"></option>
+            <option value="ENTICING ALIRAJPUR"></option>
+            <option value="FUNFAIR OF JABALPUR"></option>
+            <option value="SERENE PACHMARHI"></option>
+          </datalist>
+  
+          <label>Experience</label>
+          <input type="text" list="Experience" />
+          <datalist id="Experience">
+            <option value="Adventure"></option>
+            <option value="Culture"></option>
+            <option value="Festivals & Events"></option>
+            <option value="Must see Spots"></option>
+          </datalist>
+          
+          <label>Plan Your Trip</label>
+          <input type="text" list="Trip" />
+          <datalist id="Trip">
+            <option value="Accomodations"></option>
+            <option value="Itineraries"></option>
+            <option value="Travels Agents & Guides"></option>
+          </datalist>
+
+          <label>Holiday Package(MP)</label>
+          <input type="text" list="Package" />
+          <datalist id="Package">
+            <option value="Indore "></option>
+            <option value="Bhopal "></option>
+            <option value="Orchha "></option>
+            <option value="Jabalpur "></option>
+            <option value="Ujjain "></option>
+            <option value="Gwalior "></option>
+          </datalist>
+        </details>
+        </form>
+    </header>
+     
+    <section class="sec">
+      <details>
+        <summary >About Indore</summary>
+        <p>
+          Indore (audio speaker iconlisten) is the most populous and the largest
+          city in the Indian state of Madhya Pradesh.[15] It serves as the
+          headquarters of both Indore District and Indore Division. It is also
+          considered as an education hub of the state and has campuses of both
+          the Indian Institute of Technology and the Indian Institute of
+          Management.[16] Located on the southern edge of Malwa Plateau, at an
+          average altitude of 553 meters (1,814 ft) above sea level,[17] it has
+          the highest elevation among major cities of Central India. The city is
+          190 km (120 mi) west of the state capital of Bhopal.
+          <img src="./indore.jpg" alt="image not found ">
+        </p>
+      </details>
+      <details>
+        <summary>About Ujjain</summary>
+        <p>
+          An ancient city situated on the eastern bank of the Shipra River,
+          Ujjain was the most prominent city on the Malwa plateau of central
+          India for much of its history. It emerged as the political centre of
+          central India around 600 BCE. It was the capital of the ancient Avanti
+          kingdom, one of the sixteen mahajanapadas. It remained an important
+          political, commercial and cultural centre of central India until the
+          early 19th century
+          <img src="./ujjan.jpg" alt="image not found ">
+
+        </p>
+      </details>
+      <details>
+        <summary>About dewas</summary>
+        <p>
+          What is Dewas famous for? Dewas is known for the Devi Chamunda temple
+          and the Devi Tulaja Bhavani temple situated on a 300-foot (91 m)
+          hilltop (Tekri). A broad flight of stone steps leads to two shrines to
+          the goddesses, Choti Mata (Chamunda Mata) and Badi Mata (Tulja Bhavani
+          Mata).Dewas is a city in the Malwa region of the Indian state of Madhya Pradesh. The municipality was formerly the seat of two princely states during the British Raj, Dewas Junior state and Dewas Senior state, ruled by the Puar clan of the Marathas. The city is the administrative capital of Dewas distri
+
+          <img src="./dewas.jpg" alt="image not found ">
+
+        </p>
+      </details>
+      <details>
+        <summary>About Bhopal</summary>
+        <p>
+          Bhopal has a strong economic base with numerous large and medium
+          industries operating in and around the city. Bhopal is considered as
+          one of the important financial and economic destinations in Madhya
+          Pradesh's two strong wealth pillars, the other being Indore. In 2017,
+          Bhopal's GDP(PPP) was estimated at Rs. 1,27,000 crores.[15] A Y-class
+          city,[16] Bhopal houses various educational and research institutions
+          and installations of national importance, including ISRO's Master
+          Control Facility,[17] BHEL and AMPRIBhopal is a city in the central Indian state of Madhya Pradesh.
+          <img src="./bhopal.jpg" alt="image not found ">
+
+        </p>
+      
+      </details>
+      <aside id="iframe">
+        <iframe src="../concepts_02_16feb/index.html" name="sample"></iframe>
+       </aside>
+
+      <form id="form">
+        <label> Which City You want to visit</label><br />
+        <input type="text " name="city" list="cities" /><br />
+        <label>In which Date</label><br />
+        <input type="date" name="city" /><br />
+        <label>Your E-mail id</label><br />
+        <input type="email" name="city" /><br />
+        <label>How many Members</label><br />
+        <input type="number" name="city" />
+        <datalist id="cities">
+          <option value="Indore"></option>
+          <option value="Ujjain"></option>
+          <option value="dewas"></option>
+          <option value="Bhopal"></option>
+        </datalist>
+        <button type="submit">submit</button>
+      </form>
+    
+    </section>
+  </body>
+</html>
