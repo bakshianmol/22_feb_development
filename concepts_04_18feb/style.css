@@ -1,0 +1,29 @@
+/* universal structure */
+* {
+  background-color: rgb(49, 7, 122);
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+.form {
+  margin-top: 2em;
+  font-size: 3em;
+  color: rgb(158, 251, 142);
+}
+input {
+  border: 1px solid whitesmoke ;
+  color: azure;
+  margin : 20px;
+  padding: 8px;
+  width: 300px;
+  text-align: center;
+}
+button {
+    width: 120px;
+    margin-top: 20px;
+    color: whitesmoke;
+    border-radius: 20px;
+    background-color: rgb(81, 56, 195);
+}
