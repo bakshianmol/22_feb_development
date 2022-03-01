@@ -1,0 +1,22 @@
+/* desendent combinator */
+
+/* div p {   
+    color: red;
+} */
+
+/* child combinator */
+
+/* div > p{
+    color: burlywood;
+} */
+
+/* adjicent sibling */
+
+/* div + p{
+    color: red;
+} */
+
+/* general sibling  */
+div ~ p {
+    color: rgb(149, 25, 231);
+} 
