@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      .inline {
+        /* used to make the element inline */
+        display: inline;
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        margin: 10px;
+      }
+      .block {
+        /* used this element As block  */
+        display: block;
+      }
+      .inline-block {
+        display: inline-block;
+        visibility: hidden;
+        background-color: aquamarine;
+        height: 100px;
+        width: 100px;
+      }
+      .container {
+        display: flex;
+        height: 500px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+        align-items:flex-end;
+      }
+      .item {
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <span>this is span1</span>
+    <span>this is span2</span> -->
+
+    <!-- <div class="inline">
+        <span>this is span3</span>
+        <span>this is span4</span>
+    </div> -->
+
+    <!-- <div class="inline-block">this is div3</div>
+    <div class="inline-block">this is div4</div>
+    <div class="inline-block">this is div3</div>
+    <div class="inline-block">this is div4</div>
+    <div class="inline-block">this is div3</div>
+    <div class="inline-block">this is div4</div>
+    <div>This is div3</div> -->
+
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+
+      <div></div>
+    </div>
+  </body>
+</html>

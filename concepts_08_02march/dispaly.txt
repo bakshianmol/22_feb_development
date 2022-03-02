@@ -1,0 +1,36 @@
+display in css :
+
+1> display : tells the behaviour of the element
+
+2> inline element example : Span (space nahi leta he) 
+
+3> block element : div (space chod dete he) 
+
+4> inline display : height and widht attribute does not work when the display is inline.
+it automatically takes the height and widht according to the conent 
+
+5> block display : by deafult , display element cover the whole width of the screen.
+
+
+6> inline-block : ye height or widht bhi leta he (it behave like an inline element but one can addd height and widht to it  )
+
+7> display none : karenge to dispaly nahi hoga position bhi nahi dkhegi 
+
+8> visibility: hidden; : mager isme postion dikhegi mager content hide ho jayega 
+
+9 > display flexible : two concept conatainer and items 
+
+parent element :
+
+display: flex;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+JUSTIFY-content
+align-content: center;
+
+child element :
+
+align self 
+order 
+flex-basis 
+overide flex-end
