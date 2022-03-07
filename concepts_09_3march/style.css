@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  width: 100vw;
+  min-height: 15vh;
+  background-color: #2874ef;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 50px;
+}
+
+.buttom {
+  width: 100vw;
+  height: 75vh;
+  /* background-color: rgb(4, 7, 7); */
+}
+.top_left {
+  height: 40px;
+  /* width: 100px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1px;
+  flex: 3;
+}
+.top_right {
+  height: 40px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  /* gap: 100px; */
+}
+.logo {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.searchbox {
+  padding: 5px;
+  width: 500px;
+}
+.mid {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(253, 253, 253);
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  position: sticky;
+}
+.white {
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 150px;
+}
+.an {
+  color: black;
+}
+.buttom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.data {
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 80px;
+}
+img {
+  border: 1.5px solid;
+  width:20vw;
+  height: 35vh;
+}
+h1{
+    font-size: 90;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(167, 255, 3);
+    height: 150px;
+    width: 150px;
+    padding-top: 30px;
+    text-align: center;
+}
+h3 ,h4 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(154, 251, 222);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
