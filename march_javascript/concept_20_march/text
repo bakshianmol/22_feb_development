@@ -1,0 +1,27 @@
+Arrays and object : 
+
+Arrays : syntax: 
+[] reperesent an array array is a collection of same datatype 
+
+let numArray = [3,4,34,343]
+
+Arrays indexing start with 0 
+console.log(numArray[0]);
+
+
+object : 
+
+syntax :
+{
+
+}
+
+key : value 
+
+store multiple data types 
+
+conditional statments 
+
+if - else
+
+

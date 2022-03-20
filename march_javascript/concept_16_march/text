@@ -1,0 +1,19 @@
+function 
+
+function : it is a block of code which perform a certain task like add , sub , multi , divi etc . 
+call a function and invoke a function perform its action
+
+returns something : 
+
+function which is stroe the value of the from 
+fucntion call to store the values in ther database 
+
+return true or false : 
+
+if it is true : display sucess 
+display failed 
+
+Assingment :- 1) we have to create 4 function  Add , Sub , multi , divi
+                 function take 2 values And it should return the value 
+              2) we have to creat a function which takes A and B parameters and return valyue of (a+b)^2 
+                 using the above mentioned function
